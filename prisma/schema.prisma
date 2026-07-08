@@ -1,0 +1,20 @@
+// prisma/schema.prisma
+
+datasource db {
+  provider = "postgresql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+  // النسخة 7: المحرك الافتراضي "client" يعمل عبر Driver Adapter (@prisma/adapter-pg).
+  // لا نفرض engineType = "library" لأنه يستدعي محرك Rust القديم ويتعارض مع المحوّل.
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String?
+  email     String   @unique
+  password  String   
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
