@@ -1,0 +1,13 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+
+  "employee": {
+    "profile": "Profile",
+    "department": "Department",
+    "currentLocation": "Current Location",
+    "age": "Age"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+
+  "employee": {
+    "profile": "الملف الشخصي",
+    "department": "القسم",
+    "currentLocation": "الموقع الحالي",
+    "age": "العمر"
+  }
+}
