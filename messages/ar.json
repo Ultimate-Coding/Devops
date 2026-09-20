@@ -3,11 +3,23 @@
     "save": "حفظ",
     "cancel": "إلغاء"
   },
-
   "employee": {
     "profile": "الملف الشخصي",
     "department": "القسم",
     "currentLocation": "الموقع الحالي",
     "age": "العمر"
+  },
+  "dashboard": {
+    "title": "رصد الطابق المباشر",
+    "subtitle": "تتبع الأشخاص والحساسات في الوقت الفعلي",
+    "liveProfile": "الملف اللحظي",
+    "currentLocation": "الموقع الحالي",
+    "entryTime": "وقت الدخول",
+    "viewFullHistory": "عرض السجل الكامل"
+  },
+  "rooms": {
+    "meetingRoom": "غرفة الاجتماعات",
+    "storage": "المستودع",
+    "mainOffice": "المكاتب الرئيسية"
   }
 }

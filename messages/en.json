@@ -3,11 +3,23 @@
     "save": "Save",
     "cancel": "Cancel"
   },
-
   "employee": {
     "profile": "Profile",
     "department": "Department",
     "currentLocation": "Current Location",
     "age": "Age"
+  },
+  "dashboard": {
+    "title": "Live Floor Tracking",
+    "subtitle": "Real-time tracking for people and sensors",
+    "liveProfile": "Live Profile",
+    "currentLocation": "Current Location",
+    "entryTime": "Entry Time",
+    "viewFullHistory": "View Full History"
+  },
+  "rooms": {
+    "meetingRoom": "Meeting Room",
+    "storage": "Storage Room",
+    "mainOffice": "Main Office"
   }
 }
