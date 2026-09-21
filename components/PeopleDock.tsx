@@ -9,7 +9,7 @@ interface PeopleDockProps {
   selectedPersonId: string | null;
   onSelectPerson: (id: string) => void;
 }
-// qqq
+// qqqd
 export const PeopleDock: React.FC<PeopleDockProps> = ({
   people,
   selectedPersonId,
