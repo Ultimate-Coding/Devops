@@ -1,0 +1,16 @@
+name: Hello World Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Welcome Message
+        run: echo "Hello DevOps Journey! The build started successfully."
+
+      - name: Print Current Date
+        run: date
